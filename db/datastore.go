@@ -39,3 +39,4 @@ func (ds *DataStore) Find(q interface{}, skip int, limit int, result interface{}
 }
 
 var Villager = NewDataStore("villager")
+var SecretInfo = NewDataStore("secret_info")
